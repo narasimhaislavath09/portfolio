@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/logo.jpg" type="image/x-icon">
+  <title>Narasimha Islavath — Aspiring AI-Powered Software Engineer</title>
+  <meta name="description" content="Portfolio of Narasimha Islavath — ECE engineer building toward AI-powered software development. Projects, skills, and contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="logo">narasimha<span>.</span>islavath</div>
+    <button class="navToggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <ul id="navList">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+    <a class="cta" href="#contact">Contact</a>
+  </nav>
+
+  <!-- HOME -->
+  <section id="hero">
+    <canvas id="netCanvas"></canvas>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="hero-name">Narasimha Islavath</div>
+        <h1>ECE Engineer building<br>toward <span class="grad">AI-powered software.</span></h1>
+        <div class="tagline"><span id="typedTag"></span><span class="cursor">▌</span></div>
+        <p class="desc">I come from embedded systems and electronics — building things like autonomous robots
+          and sensor-driven controllers — and I'm now applying that same problem-solving foundation to
+          software and AI. Quick learner, hands-on builder, currently pursuing my B.Tech in ECE.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn outline" href="assets/resume.pdf" download>⭳ Download Resume</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><div class="n">2</div><div class="l">Engineering Projects</div></div>
+          <div class="hero-stat"><div class="n">5</div><div class="l">Core Technical Skills</div></div>
+          <div class="hero-stat"><div class="n">8.54</div><div class="l">Diploma CGPA</div></div>
+        </div>
+      </div>
+      <div class="avatar-wrap">
+        <span class="badge b1"><span class="dot"></span> Python</span>
+        <span class="badge b2"><span class="dot"></span> C &amp; DSA</span>
+        <span class="badge b3"><span class="dot"></span> AI/ML</span>
+        <span class="badge b4"><span class="dot"></span> GenAI</span>
+        <div class="avatar-ring">
+          <div class="avatar">
+            <img src="assets/profile.jpg" alt="Narasimha Islavath">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>scroll</span><span class="line"></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-visual reveal"><div class="blob"><span class="glyph"></></span></div></div>
+      <div class="about-text">
+        <div class="eyebrow reveal">About me</div>
+        <h2 class="section-title reveal">From circuits to code</h2>
+        <p class="reveal">I'm an Electronics &amp; Communication Engineering student with a hands-on background
+          in embedded systems — I've built autonomous robots and sensor-based automation from the ground up,
+          writing the control logic myself. That experience taught me how to debug real systems, not just
+          theoretical ones.</p>
+        <p class="reveal">I'm now focused on growing into AI-powered software development: strengthening my
+          Python foundations, learning how modern AI systems are built, and looking for opportunities —
+          internships, projects, or entry-level roles — where I can apply and grow that skill set.</p>
+        <h4 class="reveal">Education</h4>
+        <p class="reveal">B.Tech, Electronics &amp; Communication Engineering — SR University (2025–2028, in progress).
+          Diploma in ECE — Bomma Group of Institutions (2022–2025, 8.54 CGPA).</p>
+        <h4 class="reveal">Strengths</h4>
+        <p class="reveal">Problem-solving, teamwork, analytical thinking, and being a quick learner — the habits
+          that got me through building hardware projects from scratch, and that I now bring to software.</p>
+        <h4 class="reveal">Outside of engineering</h4>
+        <p class="reveal">Listening to music, reading, and learning new languages — I speak Telugu, English, and Hindi.</p>
+        <div class="stat-row reveal-stagger">
+          <div class="stat-card"><div class="num-text">ECE</div><div class="label">Engineering Background</div></div>
+          <div class="stat-card"><div class="num-text">8.54</div><div class="label">Diploma CGPA</div></div>
+          <div class="stat-card"><div class="num-text">2028</div><div class="label">Expected B.Tech Grad</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="eyebrow reveal">What I bring — and what I'm building</div>
+    <h2 class="section-title reveal">Skills</h2>
+    <div class="skills-grid reveal-stagger">
+      <div class="skill-card">
+        <h3><span class="ic" style="background:rgba(232,166,61,0.15);color:#e8a63d;">PY</span>Programming &amp; DSA</h3>
+        <div class="chip-wrap">
+          <span class="chip">Python</span><span class="chip">C</span><span class="chip">Data Structures &amp; Algorithms</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ic" style="background:rgba(95,211,196,0.15);color:#5fd3c4;">EM</span>Embedded &amp; Hardware</h3>
+        <div class="chip-wrap">
+          <span class="chip">MATLAB</span><span class="chip">Assembly Language</span><span class="chip">Embedded C</span><span class="chip">Arduino</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ic" style="background:rgba(111,183,255,0.15);color:#6fb7ff;">TL</span>Tools</h3>
+        <div class="chip-wrap"><span class="chip">MS Office</span></div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ic" style="background:rgba(124,140,255,0.15);color:#7c8cff;">AI</span>Currently Learning</h3>
+        <p class="sub">building toward AI-powered software engineering</p>
+        <div class="chip-wrap">
+          <span class="chip learning">Machine Learning fundamentals</span>
+          <span class="chip learning">AI application development</span>
+        </div>
+      </div>
+    </div>
+    <p class="note reveal">Being upfront: my AI/ML skills are a work in progress, not yet production experience.
+      I'm actively building toward them — see the case study below for how I'm already using AI tools hands-on.</p>
+  </section>
+
+  <!-- AI WORKFLOW CASE STUDY -->
+  <section id="ai-workflow" style="background:var(--bg-soft);">
+    <div class="eyebrow reveal">Proof of work</div>
+    <h2 class="section-title reveal">This site is itself an AI-assisted project</h2>
+    <p class="lede reveal">While I'm still early in my AI/ML journey, I used an AI pair-programmer to design,
+      build, and refine this entire portfolio — a real, hands-on example of working effectively with AI tools.</p>
+    <div class="workflow-row reveal-stagger">
+      <div class="wf-step"><div class="wf-num">01</div><h4>Brief &amp; direction</h4><p>Gave the AI a goal and let it propose a design system: palette, type, layout.</p></div>
+      <div class="wf-step"><div class="wf-num">02</div><h4>Generate &amp; scaffold</h4><p>AI scaffolded the full page structure and content in one pass.</p></div>
+      <div class="wf-step"><div class="wf-num">03</div><h4>Review &amp; redirect</h4><p>I critiqued each pass in plain language and the AI revised in place.</p></div>
+      <div class="wf-step"><div class="wf-num">04</div><h4>Ship</h4><p>Final pass for accuracy, responsiveness, and honesty in the content.</p></div>
+    </div>
+    <div class="prompt-demo reveal">
+      <div class="pane"><div class="pane-label"><span class="pd-dot"></span> my prompt</div>
+        <pre>"Use my real resume to fill the
+portfolio, and tell me its ATS value."</pre></div>
+      <div class="pane"><div class="pane-label"><span class="pd-dot"></span> ai approach</div>
+        <pre><span class="com">// parsed resume_Narasimha.docx</span>
+<span class="fn">extract</span>(education, skills, projects)
+<span class="com">// rebuilt site with real data only —</span>
+<span class="com">// no invented certifications or roles</span></pre></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="eyebrow reveal">Most important section</div>
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="project-grid reveal-stagger">
+      <div class="project-card">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a2340,#101627);">
+          <div class="shape" style="width:110px;height:110px;background:var(--amber);top:-20px;left:-20px;"></div>
+          <div class="shape" style="width:70px;height:70px;background:var(--teal);bottom:-15px;right:10px;"></div>
+          <span class="tag-icon">Bot</span>
+        </div>
+        <div class="project-body">
+          <h3>Line Following Robot</h3>
+          <div class="problem-label">Problem</div>
+          <p class="problem-text">Needed an autonomous robot that could follow a predefined path without manual control.</p>
+          <ul class="feature-list">
+            <li>Built on Arduino with IR sensors for path detection</li>
+            <li>Control logic programmed in embedded C for real-time correction</li>
+            <li>Tuned sensor input and motor control for smoother tracking</li>
+          </ul>
+          <div class="tags"><span class="tag">Arduino</span><span class="tag">Embedded C</span><span class="tag">IR Sensors</span></div>
+          <div class="result-badge">✓ Improved movement accuracy through optimization</div>
+          <div class="project-links"><a href="#">GitHub ↗</a></div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#132a2a,#0f1a1c);">
+          <div class="shape" style="width:105px;height:105px;background:var(--teal);top:-25px;left:30px;"></div>
+          <div class="shape" style="width:60px;height:60px;background:var(--amber);bottom:-10px;right:-10px;"></div>
+          <span class="tag-icon">Lux</span>
+        </div>
+        <div class="project-body">
+          <h3>Automatic Street Light Controller</h3>
+          <div class="problem-label">Problem</div>
+          <p class="problem-text">Street lighting left on regardless of ambient light wastes power.</p>
+          <ul class="feature-list">
+            <li>LDR sensor detects ambient light intensity</li>
+            <li>Automated ON/OFF switching based on conditions</li>
+            <li>Efficient switching logic designed to minimize wasted power</li>
+          </ul>
+          <div class="tags"><span class="tag">LDR Sensor</span><span class="tag">Circuit Design</span><span class="tag">Automation</span></div>
+          <div class="result-badge">✓ Reduced power usage vs. always-on lighting</div>
+          <div class="project-links"><a href="#">GitHub ↗</a></div>
+        </div>
+      </div>
+
+      <div class="next-card">
+        <div class="inner">
+          <div class="plus">+</div>
+          <p>Next up: a Python/AI project is in progress — check back soon.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" style="background:var(--bg-soft);">
+    <div class="eyebrow reveal">Academic background</div>
+    <h2 class="section-title reveal">Education</h2>
+    <div class="edu-grid reveal-stagger">
+      <div class="edu-card">
+        <div class="edu-top"><div class="edu-icon">BT</div>
+          <div><div class="degree">B.Tech, Electronics &amp; Communication Engineering</div><div class="school">SR University</div><div class="when">2025 — 2028 (In Progress)</div></div>
+        </div>
+        <p>Currently pursuing a bachelor's degree, building on my diploma foundation with deeper coursework in engineering and, by choice, self-directed learning in software and AI.</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-top"><div class="edu-icon">DI</div>
+          <div><div class="degree">Diploma, Electronics &amp; Communication Engineering</div><div class="school">Bomma Group of Institutions</div><div class="when">2022 — 2025</div></div>
+        </div>
+        <p>Completed with an 8.54 CGPA. Built two independent hardware projects — a line-following robot and an automatic street light controller — during this program.</p>
+        <div class="honors"><span class="tag" style="color:var(--amber);background:rgba(232,166,61,0.08);border-color:rgba(232,166,61,0.2);">8.54 CGPA</span></div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-top"><div class="edu-icon">HS</div>
+          <div><div class="degree">Secondary School</div><div class="school">Lakshya Talent School</div><div class="when">Completed 2022</div></div>
+        </div>
+        <p>Completed with a 9.2 GPA, with a foundation in mathematics and science.</p>
+        <div class="honors"><span class="tag" style="color:var(--teal);background:rgba(95,211,196,0.08);border-color:rgba(95,211,196,0.2);">9.2 GPA</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <div class="eyebrow reveal">Full details</div>
+    <h2 class="section-title reveal">Resume</h2>
+    <p class="lede reveal" style="margin-bottom:26px;">Prefer the full document? View it inline below or download a copy.</p>
+    <div class="resume-embed-wrap reveal">
+      <iframe class="resume-embed" src="assets/resume.pdf" title="Resume preview">
+        <p class="resume-fallback">Your browser can't preview PDFs here — use the download button below.</p>
+      </iframe>
+    </div>
+    <div class="resume-actions reveal">
+      <a class="btn primary" href="assets/resume.pdf" download>⭳ Download PDF</a>
+      <a class="btn ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Open in new tab ↗</a>
+    </div>
+    <div class="profile-row reveal-stagger" style="margin-top:34px;">
+      <a class="profile-badge" href="https://github.com/yourusername" target="_blank" rel="noopener"><span class="pb-ic">GH</span> GitHub</a>
+      <a class="profile-badge" href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener"><span class="pb-ic">in</span> LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-card reveal">
+      <h2>Let's connect.</h2>
+      <p>Open to internships, entry-level roles, and opportunities to grow as a software &amp; AI engineer.</p>
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="cf-name" placeholder="Your name" required>
+        <input type="email" id="cf-email" placeholder="Your email" required>
+        <textarea id="cf-message" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn primary">Send message</button>
+      </form>
+      <div class="contact-links">
+        <a class="social-btn" href="https://github.com/narasimhaislavath09" target="_blank" rel="noopener" title="GitHub">GH</a>
+        <a class="social-btn" href="https://www.linkedin.com/in/narasimha-islavath-4011b4378?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" title="LinkedIn">in</a>
+      </div>
+      <a class="email-btn" href="mailto:narasimhaislavath09@gmail.com">✉ narasimhaislavath09@gmail.com</a>
+      <div class="contact-meta">Khammam, Telangana, India · 7702657702</div>
+    </div>
+  </section>
+
+  <footer>© 2026 Narasimha Islavath — built with care (and a little AI pair-programming).</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
